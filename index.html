@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATOM X</title>
+
+<style>
+body{
+ background:#0f172a;
+ color:white;
+ text-align:center;
+ font-family:sans-serif;
+}
+
+button{
+ width:150px;
+ height:150px;
+ border-radius:50%;
+ background:#22c55e;
+ font-size:20px;
+ border:none;
+ color:white;
+}
+</style>
+</head>
+
+<body>
+
+<h2>🚀 ATOM X</h2>
+
+<h1 id="points">0</h1>
+
+<button onclick="tap()">TAP</button>
+
+<script>
+let points = 0;
+
+function tap(){
+ points++;
+ document.getElementById("points").innerText = points;
+}
+</script>
+
+</body>
+</html>
